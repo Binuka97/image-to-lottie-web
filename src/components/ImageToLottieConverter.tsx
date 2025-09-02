@@ -263,7 +263,15 @@ const ImageToLottieConverter = () => {
       {/* Footer */}
       <footer className="text-center py-8 border-t border-border/20">
         <p className="text-muted-foreground text-sm">
-          Developed by <span className="text-primary font-medium">Binuka Kamesh</span>
+          Developed by{" "}
+          <a
+            href="https://github.com/Binuka97"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary font-medium hover:underline"
+          >
+            Binuka Kamesh
+          </a>
         </p>
       </footer>
     </div>
